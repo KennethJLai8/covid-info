@@ -1,0 +1,49 @@
+|Fever
+
+Fever, also referred to as pyrexia, is defined as having a temperature above the normal range due to an increase in the body's temperature set point. There is not a single agreed-upon upper limit for normal temperature with sources using values between 37.2 and 38.3 °C (99.0 and 100.9 °F) in humans. The increase in set point triggers increased muscle contractions and causes a feeling of cold. This results in greater heat production and efforts to conserve heat. When the set point temperature returns to normal, a person feels hot, becomes flushed, and may begin to sweat. Rarely a fever may trigger a febrile seizure, with this being more common in young children. Fevers do not typically go higher than 41 to 42 °C (105.8 to 107.6 °F)
+
+|Cough
+
+A cough is a sudden expulsion of air through the large breathing passages that can help clear them of fluids, irritants, foreign particles and microbes. As a protective reflex, coughing can be repetitive with the cough reflex following three phases: an inhalation, a forced exhalation against a closed glottis, and a violent release of air from the lungs following opening of the glottis, usually accompanied by a distinctive sound.
+Shortness of breath or difficulty breathing
+
+|Shortness of Breath
+
+Shortness of breath (SOB), also known as dyspnea, is a feeling of not being able to breathe well enough. The American Thoracic Society defines it as "a subjective experience of breathing discomfort that consists of qualitatively distinct sensations that vary in intensity", and recommends evaluating dyspnea by assessing the intensity of the distinct sensations, the degree of distress involved, and its burden or impact on activities of daily living. Distinct sensations include effort/work, chest tightness, and air hunger (the feeling of not enough oxygen).
+
+|Chills
+
+Chills is a feeling of coldness occurring during a high fever, but sometimes is also a common symptom which occurs alone in specific people. It occurs during fever due to the release of cytokines and prostaglandins as part of the inflammatory response, which increases the set point for body temperature in the hypothalamus. The increased set point causes the body temperature to rise (pyrexia), but also makes the patient feel cold or chills until the new set point is reached. Shivering also occurs along with chills because the patient's body produces heat during muscle contraction in a physiological attempt to increase body temperature to the new set point. When it does not accompany a high fever, it is normally a light chill. Sometimes a chill of medium power and short duration may occur during a scare, especially in scares of fear, commonly interpreted like or confused by trembling.
+
+|Repeated shaking with chills
+
+Shaking chills (rigors) are the body's reaction to a severe infection or the release of organisms, such as viruses or bacteria, into the bloodstream. These chills often occur with a high fever and sometimes make teeth chatter or, when severe, can cause uncontrollable shaking that can make a bed vibrate.
+
+|Muscle pain
+
+In medicine, myalgia, also known as muscle pain or muscle ache, is a symptom that presents with a large array of diseases. While the most common cause is the overuse of a muscle or group of muscles, acute myalgia may also be due to viral infections, especially in the absence of a traumatic history. Longer-term Myalgias may be indicative of a metabolic myopathy, some nutritional deficiencies, or chronic fatigue syndrome.
+
+|Headache
+
+Headache is the symptom of pain in the face, head, or neck. It can occur as a migraine, tension-type headache, or cluster headache. Frequent headaches can affect relationships and employment. There is also an increased risk of depression in those with severe headaches. Headaches can occur as a result of many conditions. There are a number of different classification systems for headaches. The most well-recognized is that of the International Headache Society. Causes of headaches may include dehydration, fatigue, sleep deprivation, stress, the effects of medications, the effects of recreational drugs, viral infections, loud noises, common colds, head injury, rapid ingestion of a very cold food or beverage, and dental or sinus issues (such as sinusitis).
+
+|Sore throat
+
+Sore throat, also known as throat pain, is pain or irritation of the throat. It is usually caused by pharyngitis (inflammation of the throat) or tonsillitis (inflammation of the tonsils). 
+
+|Loss of taste
+
+Ageusia is the loss of taste functions of the tongue, particularly the inability to detect sweetness, sourness, bitterness, saltiness, and umami (meaning "pleasant/savory taste"). It is sometimes confused with anosmia – a loss of the sense of smell. Because the tongue can only indicate texture and differentiate between sweet, sour, bitter, salty, and umami, most of what is perceived as the sense of taste is actually derived from smell. True ageusia is relatively rare compared to hypogeusia – a partial loss of taste – and dysgeusia – a distortion or alteration of taste.
+
+|Loss of Smell
+
+Anosmia, also known as smell blindness, is the loss of the ability to detect one or more smells. Anosmia may be temporary or permanent. It differs from hyposmia which is a decreased sensitivity to some or all smells.
+Anosmia can be due to a number of factors, including an inflammation of the nasal mucosa, blockage of nasal passages or a destruction of one temporal lobe. Inflammation is due to chronic mucosa changes in the lining of the paranasal sinus and in the middle and superior turbinates.
+
+|Persistent pain or pressure in the chest
+
+Chest pain is pain or discomfort in the chest, typically the front of the chest.  It may be described as sharp, dull, pressure, heaviness or squeezing. Associated symptoms may include pain in the shoulder, arm, upper abdomen or jaw or nausea, sweating or shortness of breath. It can be divided into heart-related and non-heart-related pain. Pain due to insufficient blood flow to the heart is also called angina pectoris. Those with diabetes or the elderly may have less clear symptoms.
+
+|Bluish lips or face
+
+Cyanosis is the bluish or purplish discoloration of the skin or mucous membranes due to the tissues near the skin surface having low oxygen saturation.
