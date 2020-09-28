@@ -112,17 +112,16 @@ int countWord(std::string filename)
                 have_word = false;
                 while(!isLetter(line[i])){ i++; }//while iterator is not a letter. line[i] is position of iterator. i++ = go to next letter
                 while(i < line.length() && (isLetter(line[i]) || line[i] == '\'' || (line[i] == '-' && line[i+1] != '-'))) { i++; have_word = true;}
-                if(have_word){ numOfWords++; }//^ line above is basically: while(i < line length AND (isLetter returns true OR the iterator in "line" is a backspace OR (a dash AND the character after is NOT a dash))) then increment the iterator and have_word = true
+                if(have_word){ numOfWords++; }
             }//if have_word is true, increment the number of words counter. So while it's not at the end of the line
-        }   //important note about line 116. line[i] == '\'' is checking for a single quote aka apostrophe. We need the backslash to distinguish it. Related to escape sequence.
-        infile.close();
+        }   
         std::cout << "Number of words: " << numOfWords << std::endl;
         return numOfWords;
     }
     return 0;
 }
-
-std::vector<std::string> splite(std::string str)//vector of string. use for FileToTree function
+//splite function formats the passed in string to the appropriate format to be sorted in the FileToTree function
+std::vector<std::string> splite(std::string str)
 {
 
     std::vector<std::string> res;
@@ -131,10 +130,10 @@ std::vector<std::string> splite(std::string str)//vector of string. use for File
     {
         if(ispunct(str[i]))
         {
-            str.erase(i--, 1);//.erase() means begin at i-- and span the length of 1. so start at previous character and erase the next one.
+            str.erase(i--, 1);
         }
     }
-    for (auto x : str)//a for loop that goes through entire string. str is the parameter. x is at the beginning
+    for (auto x : str)
         {
             if (!isalpha(x))
             {
