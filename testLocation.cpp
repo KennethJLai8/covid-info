@@ -42,8 +42,8 @@ void testLocation::printAll()
 {
     std::cout << std::setw(30) << std::left << name << std::setw(30) << std::left << address << std::setw(30) << std::left << city << std::endl;
 }
-
-void testLocation::setData(std::string add,std::string cit,std::string nam)//initializes data for sorting purposes
+//initializes data for sorting purposes
+void testLocation::setData(std::string add,std::string cit,std::string nam)
 {
     address = add;
     city = cit;
