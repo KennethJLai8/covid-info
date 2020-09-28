@@ -37,6 +37,9 @@ void Symptoms::printMap(){
     }
 }
 
+//1. Reads in file
+//2.Takes each keyword and associates it with the appropriate description
+//note: We used the pipe character "|" to identify the key word from the .txt file
 void fileToMap(){//puts file in a map
     std::ifstream infile;
     std::string line;
@@ -45,7 +48,7 @@ void fileToMap(){//puts file in a map
     const char sc = '|';
     Symptoms a;
 
-    infile.open("/Users/kennethlai/Documents/CS-124/finalproject/symptoms.txt");
+    infile.open("symptoms.txt");
 
   if(infile.fail())
     {
