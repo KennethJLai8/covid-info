@@ -48,3 +48,6 @@ We began planning our project by brainstorming project ideas that seem feasible 
 To give a better demonstration of our knowledge, we decided to have different features of our wiki utilize different data structures we have learned. Our original brainstorm was to have seven different options, but as time went on and some of our features took too long to implement, we narrowed it down to five features at the end. In order to use these features, the user only needs to input integers to signify which action they would like to take. In the search symptoms function, they need to type in a keyword.
 Our organization and planning of the five different features, as well as how specific we want each step to be is demonstrated by the graph below.
 
+|![Alt Text](planning.png)|
+|:--:|
+|Flowchart regarding planning of the program|
