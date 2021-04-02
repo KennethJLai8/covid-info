@@ -264,11 +264,63 @@ The prevention tips are streamed in via an ifstream function and stored in a tem
 
 ## Pitfalls
 
-Pitfall #1:
+## Pitfall #1:
 
 When we were working on the part which allows the user to go back to the previous page, we had problems locating where we should push back the page number and when we should take the top number and pop it. Also, another problem we have to address is that we have to prompt the user when they are already at the first page they viewed, which means there will be lots of things to check before an operation to the stack we use to store page numbers.
 
 Original Error with backtracking : http://cpp.sh/8r7ej
+
+|![Alt Text](pitfall1.png)|
+
+For the code above, our original idea was that we add the “go back to previous page” option in the main menu as option number 7. If the user chooses to look at something other than option 7, we push whatever the user entered into the stack. If the user entered 7,  we don’t push it to the stack because it’s not one of the options for the user to go back to. Other than that, the three scopes of if-else is to check if the stack is empty and check if the user has chosen option 7.
+ 
+But there is a logical error in the program. We wanted to set the variable choice to 7 when the stack is empty, so that we can skip all the checking for variable “choice” and get to the bottom part which asks if the user wants to quit. We thought it’s because we didn’t reset the status of the stack to empty when we removed the last number in the stack, so we add a boolean variable that keeps track of whether the stack is empty or not. Here’s the modified code.
+
+Error with backtracking version 2: http://cpp.sh/2q4d3
+
+
+But actually, what happened was, when we insert the page number into the stack after operating the option, we can’t get rid of this number in the stack even though we called pop because it goes into the stack twice and we ended up with only removing one. Therefore, after finding this error, we push the user option right after they enter it. This avoided inserting the same thing into the stack twice, and the problem was solved.
+
+## Pitfall #2
+
+For option 4, we have to implement an algorithm that gets each word in the .txt file one by one. We had multiple attempts but we keep being bothered by random spaces around the words. 
+
+Eventually, we found that the best solution is to first put the content of the whole .txt file into a string and remove all the special characters, punctuations, and extra spaces. Then things become much easier--we just need to loop through the whole string as a character array and take out a word whenever a space is found.
+
+# Possible Improvements
+
+What could you have done differently to improve your specific completion of this assignment? 
+
+Traditional wikis are made open to the public so that anyone can edit the contents of the wiki. To implement that feature, we would need a way to check and validate the information that the user submits. On a larger scale where a wiki is open to basically the whole internet, we would probably need a way to manage all of the edits. Because of time constraints, we weren’t able to use html to create a website for our wiki. Because of time constraints, we weren’t able to use html to create a website for our wiki.
+
+What could have been done differently to avoid some of the possible pitfalls in general, especially those pitfalls that seem to be common throughout your completion of different assignments?
+
+We thought about having a word suggestion feature for the search portion of the program. Our initial concept involved checking the first and last letters of the entered search term. We would then compare them to a word bank containing all of the words in the .txt file. This allows the user to have typos and the room for error. Also, we can include functions that allow punctuations or numbers, again, giving more options for the user to type. 
+
+What could be improved about this assignment overall, for you to better demonstrate a successful and mindful mastery of the programming concepts covered so far?
+
+It seems that because the requirements include too many data structures and algorithms that we have to implement into our program, the time is very limited. This results in a situation where even though we have four people in a group, it’s hard for us to present every single one of those requirements in a more creative and interesting way. A large portion of our time has been used to find a proper way to make use of these data structures and algorithms instead of actually focusing on how to make good use of one data structure/algorithm. Therefore, we believe reducing the requirements can make this assignment better.
+
+What could be improved about this assignment overall for you and/or for future students? Be as specific and constructive as possible.
+
+Most of the project presentation seemed the same i.e a supply inventory management system. Perhaps having different topics to have more diversity in the programs would make this group project more interesting.Therefore, we believe if there are some examples of projects from previous years could probably be helpful and inspirational for us.It would be nice to hear about some final projects from previous years even though they don’t pertain to COVID-19.
+
+Based on user feedback and your own analysis, what can be done to improve your program?
+
+Based on the user feedback and our analysis, there are two things that we could have done better:
+
+1. Improve on the formatting about the user menu. Since the time is limited, we could get to make the user interface look better. More division lines and blocks with appropriate length and size will make the whole program look much better than how it is right now.
+
+2. Allows users to contribute some content. For example, for the symptoms and prevention method, we can provide an option which allows the user to add another entry to the list, open editing is to require users to cite the articles that they used for research, and then have the source page updated accordingly to make sure the new information is genuine.
+
+
+
+
+
+
+
+
+
 
 
 
