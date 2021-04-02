@@ -1,14 +1,14 @@
 # Spring 2020 CS124 Team Project Report: A COVID-19 Wiki
 
-# • Listing of team members and workload or contributions to the project
+## • Listing of team members and workload or contributions to the project
 
-## Brian Yu - General design, organization and writing parts of the code
+ Brian Yu - General design, organization and writing parts of the code
 
-## Kenneth Lai - Research, writing parts of the code
+ Kenneth Lai - Research, writing parts of the code
 
-## Vincent Li - Documentation, writing parts of the code
+ Vincent Li - Documentation, writing parts of the code
 
-## Zhexian Liu - Debugging, structuring, and writing parts of the code
+ Zhexian Liu - Debugging, structuring, and writing parts of the code
 
 
 ## • Purpose
