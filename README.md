@@ -62,13 +62,13 @@ The first of these kinds of programs is the validated function. The purpose of t
 
 The second general-purpose function is the divisionLine() function. divisionLine prints out exactly 90 dashes. This function is used mainly for formatting to divide sections so that the output looks more organized.
 
-|![Alt Text](division_line.png)|
+|![Alt Text](images/division_line.png)|
 |:--:|
 |divisionLine function|
 
 Our next function is the countLines function. The countLines function is primarily used for our testLocation array. This function will dictate the size of the array so that we can store all the lines in the .txt file sufficiently.
 
-|![Alt Text](count_lines.png)|
+|![Alt Text](images/count_lines.png)|
 |:--:|
 |countLines function|
 
@@ -76,20 +76,20 @@ The user should be able to choose the options with a number input. This can be i
 
 ## 1. Get a list of test areas in the bay area
 
-|![Alt Text](TestLoction.png)|
+|![Alt Text](images/TestLoction.png)|
 |:--:|
 |TestLocation array concept|
 
 
 This will be implemented by having a text file full of test locations. Each line of the text file will have the name, address, then city of a location. In order to print this, we will first use a function to read each piece of text between the separators (commas). We will store the name, address, and city name inside an object of TestLocation class. Then we will store each of these objects into an array of TestLocation type. This will allow us to format the contents of the list at will, and will satisfy the array requirements of the project. The figure below is our TestLocation class which includes the data members, as well as some accessors and mutators we wrote. This class is mostly written by Vincent but was debugged and ran on Zhexian’s computer.
 
-|![Alt Text](TestLoctionClass.png)|
+|![Alt Text](images/TestLoctionClass.png)|
 |:--:|
 |TestLocation class|
 
 Below is the key algorithm that extracted data and recorded in a testLocation array, this can be found in functions.cpp in our readfileloctoarr function. This function is meant to read from the testlocation file, record data, and print it out with a nicely formatted list. 
 
-|![Alt Text](parser.png)|
+|![Alt Text](images/parser.png)|
 |:--:|
 |Function used to parse text file for address, city, name|
 
@@ -99,37 +99,37 @@ In the above function, we go through each character of each line from the text f
 
 To implement the symptoms, we need to use a map to link the symptoms to the appropriate description. For better understanding and usage of member functions, Brian created a class called symptom that contains a STL map in its data member. He finished writing all the member functions, and it was debugged and completed on Zhexian's computer. 
 
-|![Alt Text](symptomClass.png)|
+|![Alt Text](images/symptomClass.png)|
 |:--:|
 | Symptom class with member functions, arguably not needed, but is nice making this data immutable. |
 
 For extracting data, we start by streaming in the file to see if it exists. To identify the keys and descriptions, we used the pipe character as a special character as a tool to help differentiate between the various components. The line containing the special character will be stored as a keyword.
 
-|![Alt Text](symptomTxt.png)|
+|![Alt Text](images/symptomTxt.png)|
 |:--:|
 | Symptoms .txt file, where we have special character to separate keys from values |
 
 For example, in the image above, the first pipe character is on the same line as Fever. Our function will take the line ignoring the pipe character of course and pass “Fever” as a key to our add_entry function. After initializing our key, our function will then read all the lines up to the next pipe character and store all of those lines in a string variable. In this case, after reading “Fever”, our function will read all of the lines up to the next pipe character which is located at “Cough”. We will then pass the string variable to our add_entry function as the value to which the key will be associated with. The steps listed above will be applied for every symptom in the .txt file. The lines of code to implement these steps is pictured below:  
 
-|![Alt Text](keys.png)|
+|![Alt Text](images/keys.png)|
 |:--:|
 | Creating and passing keys and values |
 
 Our add_entry function will add a new entry to the map:
 
-|![Alt Text](add_entry.png)|
+|![Alt Text](images/add_entry.png)|
 |:--:|
 | add_entry function |
 
 After creating the map, our print function will give the user a choice of which symptom and description that they want to see. We created a vector of keys and based on the choice, we redirect them to the appropriate key which is connected to the appropriate description.
 
-|![Alt Text](print_function.png)|
+|![Alt Text](images/print_function.png)|
 |:--:|
 | Print function |
 
 The process can be summarized by the image below:
 
-|![Alt Text](map_concept.png)|
+|![Alt Text](images/map_concept.png)|
 |:--:|
 | Map concept |
 
@@ -137,25 +137,25 @@ The process can be summarized by the image below:
 
 The user will be able to see what different prevention methods there are. We will implement this using a linked list connecting nodes of information to each other to allow for access to any specific prevention method. In order to do this, we will use functions that we practiced with when we were initially learning about linked lists such as addatend. This feature was finished by Kenneth alone, and ran and debugged in Zhexian’s computer during our meetings.
 
-|![Alt Text](Passes_buildList.png)|
+|![Alt Text](images/Passes_buildList.png)|
 |:--:|
 | Passing lines to buildList function |
 
 Our buildList function is similar to the addAtEnd function that we practiced implementing in class:
 
-|![Alt Text](build_list.png)|
+|![Alt Text](images/build_list.png)|
 |:--:|
 | buildList function |
 
 After the linked list is built, we use a print function to display the contents of the list:
 
-|![Alt Text](buildListPrint.png)|
+|![Alt Text](images/buildListPrint.png)|
 |:--:|
 | Print function |
 
 The whole process can be summarized by the image below:
 
-|![Alt Text](linked_list.png)|
+|![Alt Text](images/linked_list.png)|
 |:--:|
 | Linked list concept |
 
@@ -163,11 +163,11 @@ The whole process can be summarized by the image below:
 
 We thought of many possibilities of a search function, including binary searching an array, searching using STL member functions, or even linear searching. Obviously linear searching is very slow and inefficient, searching using an STL library member function does not reflect our understanding, and using a binary search on an array needs us to sort the array of words, which is also unnecessary for us. After learning the Binary Search Tree we thought that it fits our needs perfectly. We can insert each word into a Binary search tree which is naturally sorted, and because of this the search function implemented in this is naturally a binary search. The BST class is written by Brian, and this whole feature is finished by Brian and Zhexian together. 
 
-|![Alt Text](BST_class.png)|
+|![Alt Text](images/BST_class.png)|
 |:--:|
 | Binary search tree class |
 
-|![Alt Text](BST_search.png)|
+|![Alt Text](images/BST_search.png)|
 |:--:|
 | Binary search function(count) |
 
@@ -175,13 +175,13 @@ This binary search tree is inspired by the one detailed in the book. Through the
 
 For extracting data we used an array of Binary search trees, with symptom names as the root node. It can be summarized by the graph below. 
 
-|![Alt Text](BST_concept.png)|
+|![Alt Text](images/BST_concept.png)|
 |:--:|
 | Binary search tree concept |
 
 We began by separating the words using a split function, which we encountered some trouble on, but we solved using the help from Kenneth’s algorithm from lab 2, extracting all the punctuations out. 
 
-|![Alt Text](splite.png)|
+|![Alt Text](images/splite.png)|
 |:--:|
 | Splite function |
 
@@ -196,13 +196,13 @@ We used many arrays and vectors, as well as member functions to keep track of wh
 
 ## 5. Backtracking
 
-|![Alt Text](Backtracking.png)|
+|![Alt Text](images/Backtracking.png)|
 |:--:|
 | Backtracking stack concept |
 
 For the backtracking function, we took whatever choice the user inputted and pushed it to a stack called pages -> pages.push(choice). This will be the corresponding page to the 5 options (list of symptoms, test centers etc.). When the user indicates they want to go back in the main menu, it does pages.pop() and now reverts the user's "choice" back to the previous page they were at. Here’s the code that implements the backtracking function in main.
 
-|![Alt Text](menu.png)|
+|![Alt Text](images/menu.png)|
 |:--:|
 | Main menu |
 
@@ -210,55 +210,55 @@ For the backtracking function, we took whatever choice the user inputted and pus
 
 The user will be first prompt with the main menu that contains all the options, and they can make a choice by entering an integer. Here is the runtime output for option 1.
 
-|![Alt Text](option1.png)|
+|![Alt Text](images/option1.png)|
 |:--:|
 | All the user inputs are validated in order to prevent from ending the program ungracefully due to bad input |
 
 After displaying the corresponding content of each option, the user will be prompted with the following options:
 
-|![Alt Text](option_list.png)|
+|![Alt Text](images/option_list.png)|
 |:--:|
 | The user can choose to quit the program, back to main menu, or go back to previous page |
 
 If the user is currently at the first page they viewed, he will be told that there’s no previous page to view:
 
-|![Alt Text](no_prev.png)|
+|![Alt Text](images/no_prev.png)|
 |:--:|
 | Can’t go back anymore since the user is at the first page |
 
 Here is the runtime output for option 2:
 
-|![Alt Text](option2.png)|
+|![Alt Text](images/option2.png)|
 |:--:|
 | At the end, the user can choose to either go back to the main menu or look at another symptom |
 
 Here is the runtime output for option 3, prevention methods:
 
-|![Alt Text](option3.png)|
+|![Alt Text](images/option3.png)|
 |:--:|
 | Option 3 |
 
 Here is the runtime output for option 4 search for symptoms. The user will be asked to enter a keyword that he wants to know if it’s related to any symptom, and then the list of symptoms that contains the keyword will be printed on screen for the user to choose from.
 
-|![Alt Text](option4.png)|
+|![Alt Text](images/option4.png)|
 |:--:|
 | Runtime output for option 4 |
 
 For option 5, the list of sources will be printed on the screen to give credit to all the the sources of information for this program:
 
-|![Alt Text](option5.png)|
+|![Alt Text](images/option5.png)|
 |:--:|
 | Runtime output for option 5 |
 
 To implement all the components of a linked list, we first have a .txt file with all of the prevention tips on individual lines as shown below:
 
-|![Alt Text](LinkedListTxt.png)|
+|![Alt Text](images/LinkedListTxt.png)|
 |:--:|
 | .txt file |
 
 The prevention tips are streamed in via an ifstream function and stored in a temporary string variable. The variable is then passed to our build list function which is similar to the addatend will create nodes for each line. The nodes are then connected to each other via pointer as defined in our class. After we build our list, we print out the data stored in all the nodes via our print function. The print function will keep printing out the information until a null pointer is encountered.
 
-|![Alt Text](PreventionLinkedList.png)|
+|![Alt Text](images/PreventionLinkedList.png)|
 |:--:|
 | Prevention method linked list printed |
 
@@ -270,7 +270,7 @@ When we were working on the part which allows the user to go back to the previou
 
 Original Error with backtracking : http://cpp.sh/8r7ej
 
-|![Alt Text](pitfall1.png)|
+|![Alt Text](images/pitfall1.png)|
 
 For the code above, our original idea was that we add the “go back to previous page” option in the main menu as option number 7. If the user chooses to look at something other than option 7, we push whatever the user entered into the stack. If the user entered 7,  we don’t push it to the stack because it’s not one of the options for the user to go back to. Other than that, the three scopes of if-else is to check if the stack is empty and check if the user has chosen option 7.
  
