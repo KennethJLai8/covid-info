@@ -62,9 +62,6 @@ The first of these kinds of programs is the validated function. The purpose of t
 
 The second general-purpose function is the divisionLine() function. divisionLine prints out exactly 90 dashes. This function is used mainly for formatting to divide sections so that the output looks more organized.
 
-|![Alt Text](images/division_line.png)|
-|:--:|
-|divisionLine function|
 
 Our next function is the countLines function. The countLines function is primarily used for our testLocation array. This function will dictate the size of the array so that we can store all the lines in the .txt file sufficiently.
 
