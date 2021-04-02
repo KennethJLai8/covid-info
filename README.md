@@ -19,7 +19,7 @@ The purpose of this assignment is to address an issue related to COVID-19 and im
 |:--:|
 |Misleading Statistics|
 
-##• Planning and organization
+## • Planning and organization
 
 Q: What input does the program need from the user? Why?
 
@@ -48,7 +48,7 @@ We began planning our project by brainstorming project ideas that seem feasible 
 To give a better demonstration of our knowledge, we decided to have different features of our wiki utilize different data structures we have learned. Our original brainstorm was to have seven different options, but as time went on and some of our features took too long to implement, we narrowed it down to five features at the end. In order to use these features, the user only needs to input integers to signify which action they would like to take. In the search symptoms function, they need to type in a keyword.
 Our organization and planning of the five different features, as well as how specific we want each step to be is demonstrated by the graph below.
 
-|![Alt Text](planning.png)|
+|![Alt Text](images/planning.png)|
 |:--:|
 |Flowchart regarding planning of the program|
 
@@ -56,7 +56,7 @@ Before we start, we defined some general-purpose functions that we found very us
 
 The first of these kinds of programs is the validated function. The purpose of this function is to check if the user input is a viable option. We have a defined range of numbers that are considered valid inputs so if the user input is not verified to be in this range, they are prompted to enter again.
 
-|![Alt Text](validated_int.png)|
+|![Alt Text](images/validated_int.png)|
 |:--:|
 |validatedInt function|
 
