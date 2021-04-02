@@ -11,7 +11,7 @@
 ## Zhexian Liu - Debugging, structuring, and writing parts of the code
 
 
-##• Purpose
+## • Purpose
 
 The purpose of this assignment is to address an issue related to COVID-19 and implement a solution to it using the various data structures and algorithms we learned from CS 124. Since it is also our first group project in the class, it will also help us develop our collaboration and leadership skills. For our issue, we chose the lack of reliable information out there on COVID-19. As you can see in the figure to the right, according to a study published by Reuters, 38% of false claims regarding COVID-19 are straight up, completely fabricated. Social media is a huge propagator for this type of information, such as misleading videos, "gurus" pushing fake remedies, and comments from the president telling people to inject disinfectants. Because of this, we wanted to create a wiki that would help educate the public and turn them in the right direction. Specifically, this wiki will be targeted towards bay area users since the data we gathered on testing centers are from around here. On the expected impact of our project, we are not expecting the people who stubbornly refuse to wash their hands, or who go to work and meet clients without wearing a mask, to instantly change after reading our wiki. Instead, we are hoping people who wish to become more informed can find an easy place to learn with condensed information.
 
