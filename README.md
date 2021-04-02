@@ -17,7 +17,7 @@ The purpose of this assignment is to address an issue related to COVID-19 and im
 
 |![Alt Text](images/misleading_stats.png)|
 |:--:|
-|Misleading Statistics|
+|Reconfigured and fabricated content|
 
 ## • Planning and organization
 
@@ -68,7 +68,7 @@ The second general-purpose function is the divisionLine() function. divisionLine
 
 Our next function is the countLines function. The countLines function is primarily used for our testLocation array. This function will dictate the size of the array so that we can store all the lines in the .txt file sufficiently.
 
-|![Alt Text](count_Lines.png)|
+|![Alt Text](count_lines.png)|
 |:--:|
 |countLines function|
 
@@ -143,7 +143,7 @@ The user will be able to see what different prevention methods there are. We wil
 
 Our buildList function is similar to the addAtEnd function that we practiced implementing in class:
 
-|![Alt Text](buildList.png)|
+|![Alt Text](build_list.png)|
 |:--:|
 | buildList function |
 
