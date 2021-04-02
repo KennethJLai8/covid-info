@@ -76,14 +76,14 @@ The user should be able to choose the options with a number input. This can be i
 
 ## 1. Get a list of test areas in the bay area
 
-|![Alt Text](images/TestLoction.png)|
+|![Alt Text](images/TestLocation.png)|
 |:--:|
 |TestLocation array concept|
 
 
 This will be implemented by having a text file full of test locations. Each line of the text file will have the name, address, then city of a location. In order to print this, we will first use a function to read each piece of text between the separators (commas). We will store the name, address, and city name inside an object of TestLocation class. Then we will store each of these objects into an array of TestLocation type. This will allow us to format the contents of the list at will, and will satisfy the array requirements of the project. The figure below is our TestLocation class which includes the data members, as well as some accessors and mutators we wrote. This class is mostly written by Vincent but was debugged and ran on Zhexian’s computer.
 
-|![Alt Text](images/TestLoctionClass.png)|
+|![Alt Text](images/TestLocationClass.png)|
 |:--:|
 |TestLocation class|
 
